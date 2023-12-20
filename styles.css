@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-font-smoothing: antialiased;
+}
+code{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.app{
+    background: brown;
+    padding: 30px;
+    height: 100vh;
+}
+
+.todo-list{
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.todo{
+    background: green;
+    box-shadow: 1px 1px 1px black;
+    padding: 3px 10px;
+    font-size: 24px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1rem;
+    height: 2.25em;
+    font-size: 24px;
+}
